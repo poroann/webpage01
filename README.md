@@ -3,7 +3,7 @@
 
 1. 右上　＋マークのところ　New repository選択
 
-2. アカウント/の後ろにページの名前を入れる　→　Creatiin repository　OK
+2. アカウント/の後ろにページの名前を入れる　→　Create repository　OK
 
 3. 左上　アカウントの後に作ったページの名前があるのを確認  　
     その名前をクリック  
