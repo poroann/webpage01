@@ -22,7 +22,7 @@
       width:10em;
       border-radius:5px;
       background-color:lightyellow;}
-/* 横 */
+/* 横 flex*/
    .div-2{
       margin:20px;
       padding:10px;
@@ -41,6 +41,26 @@
       border-radius:5px;
       background-color:lightyellow;}
 
+/* 横 (参照 HTML+CSS標準入門) */
+   ul.ul-3{
+      background:#1b9aaa;
+      padding:0;
+      text-align:center;}
+   ul.ul-3 li{
+      display:inline-block;}
+   ul.ul-3 li a{
+      display:block;
+      padding:1em;
+      color:#fff;
+      font-size:12px;
+      text-decoration:none;}
+   ul.ul-3 li a::first-line{
+      font-size:16px;
+      font-weight:bold;}
+   ul.ul-3 li a:hover{
+      background:#14727e;}
+
+
 </style>
 <script>
 </script>
@@ -54,13 +74,24 @@
 </navi>
 <section id="main">
 
-/* css無し */
-<div>
-<ul>
-  <li>Top<br>トップ</li>
-  <li>News<br>最新</li>
-  <li>Jobs<br>仕事</li>
-  <li>About<br>履歴</li>
+/* 横 (参照 HTML+CSS標準入門) */
+<div class='div-3'>
+<ul class='ul-3'>
+  <li><a href="#">Top<br>トップ</a></li>
+  <li><a href="#">News<br>最新</a></li>
+  <li><a href="#">Jobs<br>仕事</a></li>
+  <li><a href="#">About<br>履歴</a></li>
+</ul>
+</div>
+<hr>
+
+/* 横 flex */
+<div class='div-2'>
+<ul class='ul-2'>
+  <li class='li-2'>Top<br>トップ</li>
+  <li class='li-2'>News<br>最新</li>
+  <li class='li-2'>Jobs<br>仕事</li>
+  <li class='li-2'>About<br>履歴</li>
 </ul>
 </div>
 <hr>
@@ -76,13 +107,13 @@
 </div>
 <hr>
 
-/* 横 */
-<div class='div-2'>
-<ul class='ul-2'>
-  <li class='li-2'>Top<br>トップ</li>
-  <li class='li-2'>News<br>最新</li>
-  <li class='li-2'>Jobs<br>仕事</li>
-  <li class='li-2'>About<br>履歴</li>
+/* css無し */
+<div>
+<ul>
+  <li>Top<br>トップ</li>
+  <li>News<br>最新</li>
+  <li>Jobs<br>仕事</li>
+  <li>About<br>履歴</li>
 </ul>
 </div>
 <hr>
